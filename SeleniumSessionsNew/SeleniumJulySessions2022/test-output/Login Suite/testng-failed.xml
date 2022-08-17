@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Login Suite]" guice-stage="DEVELOPMENT" verbose="3">
+  <test thread-count="2" parallel="tests" name="TestNG basics(failed)" verbose="3">
+    <classes>
+      <class name="com.TestNG.TestNGParallel">
+        <methods>
+          <include name="Loginflipkart"/>
+        </methods>
+      </class> <!-- com.TestNG.TestNGParallel -->
+    </classes>
+  </test> <!-- TestNG basics(failed) -->
+</suite> <!-- Failed suite [Login Suite] -->

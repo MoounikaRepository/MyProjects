@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login Suite" verbose="3" parallel="tests" thread-count="2">
+
+	<test name="TestNG basics">
+		<classes>
+			<class name="com.TestNG.TestNGParallel" />
+		</classes>
+
+	</test>
+
+	<test name="Amzonsite">
+		<classes>
+			<class name="com.TestNG.TestNGSession">
+			
+			<methods>
+			
+			<include name="logovalidation"></include>
+			
+			
+			</methods>
+			
+			</class>
+		</classes>
+
+	</test>
+</suite>
